@@ -1,0 +1,89 @@
+/*CSS RESET *!/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(190deg, #ffe600, #fde473);
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(238, 222, 1);
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 40%;
+}
+
+.seletores {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ffe600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fde473;
+}
+
+p {
+    font-weight: bold;
+}
+
+article {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(248, 209, 36, 0.959);
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fde473;
+}
+
+article a:hover {
+    color: #ffe600;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #fde473;
+    padding: 20px;
+    margin-top: 20px;
+}
+
